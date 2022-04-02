@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_15"
+    android:orientation="vertical"
+    tools:context=".Name3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/nbtn"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="152dp"
+            android:layout_weight="1"
+            android:text="Next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/prebtn"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="84dp"
+            android:layout_weight="1"
+            android:text="Back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="388dp"
+            android:layout_height="322dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="140dp"
+            android:layout_weight="1"
+            android:src="@drawable/img_11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="8dp"
+            android:text="Allah"
+            android:textSize="1sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

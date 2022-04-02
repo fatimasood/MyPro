@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D100F0F"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/text_slideshowText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="It"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/text_slideshowT"
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#00FAA5C2"
+        android:text="It is extremely important to refrain from certain kinds of things because fasting is ritual that will make you learn patience.
+Thus it is important that you abstain from all false talks and deeds or quarrel.
+Try not to indulge in arguments, use bad words, or do anything that is forbidden in Islam. It will provide you the chance to discipline yourself morally and ethically.
+Moreover fasting is the best way to gain physical training and discipline.
+The last but certainly not the least task is to perform acts of charity and goodness.
+Furthermore you also need to increase your worship by excessive praying and dedicate some time for recitation of Quran. There are extra rewards for the ones who recite Quran in this month. Thus it is recommended to recite whole Quran by the 27th of Ramadan."
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/img_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

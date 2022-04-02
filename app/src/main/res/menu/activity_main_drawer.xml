@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aftari"
+            android:icon="@drawable/ic_baseline_calendar_today_24"
+            android:title="CALENDER" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_emoji_emotions_24"
+            android:title="SUPPLICATIONS" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            android:title="NAMES OF ALLAH" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_follow_the_signs_24"
+            android:title="GUIDNESS" />
+    </group>
+</menu>
